@@ -27,7 +27,7 @@
 ## 3. Phân công nhiệm vụ:
 - Dương Đức Tuấn (Nhóm trưởng): Viết configure.sh, Makefile, hoàn thiện final project.
 - Nguyễn Hoài Thương: Viết log.c, log.h, monitor.h, monitor.c
-- Nguyễn Hữu Tuyên: Viết file test.c
+- Nguyễn Hữu Tuyên: Viết file test.c, monitor.c
 - Nguyễn Thanh Sơn: Viết file main.c
 - Lê Nhất Vũ: Viết list_syscall.c, list_syscall.h
 
