@@ -1,4 +1,13 @@
 # SAFERUN PROGRAM - OPERATING SYSTEM PROJECT
+```text
+	
+Đề tài 12: Xây dựng chương trình ngăn một chương trình khác sử dụng một số system call nhất định
+
+- Để đảm bảo an toàn cho máy tính khi chạy một chương trình, ta cần xây dựng một chương trình có tên saferun giúp ngăn cản chương trình đó thực hiện một số system call (VD: open, fork, socket, shutdown, kill,...)
+- Ví dụ khi chạy sẽ gõ lệnh "saferun -d:open,fork suspected -- a b c" để thực thi chương trình có tên suspected với các tham số a, b, c và không cho nó thực hiện các system call open và fork; hoặc gõ "saferun -e:read,write suspected -- a b c" để chạy và không cho thực hiện các system call ngoài read và write
+- Tham khảo cách làm: https://www.linuxjournal.com/article/6100
+- Ngôn ngữ: C/C++
+```
 
 ## 1. Giới thiệu chung và chức năng:
 - Mục tiêu: Xây dựng 1 chương trình để chặn 1 chương trình khác chạy một số system call nhất định.
@@ -34,7 +43,7 @@
 ## 4. Hướng dẫn cài đặt, dịch và sử dụng:
 - Bước 1: Clone this repository về máy và vào thư mục chứa code.
 ```bash
-git clone https://github.com/DTuan2016/operating_system_prj
+git clone https://github.com/HuuTuyen2005/Saferun.git
 
 cd operating_system_prj/
 ```
